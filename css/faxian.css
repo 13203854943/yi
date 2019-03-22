@@ -1,0 +1,389 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:none;
+    vertical-align:baseline;
+}
+
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+html, body {
+    background: whitesmoke;
+   /* font-size: 5px;*/
+}
+header{
+	width: 100%;
+	height: 5rem;
+	background: url(../img/tou.PNG) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	z-index: 999;
+}
+.fs-1>ul>li>a{
+	color: black;
+}
+header>.fs1{
+	display: inline-block;
+	position: absolute;
+	top: 0.5rem;
+	left: 1rem;
+}
+header>.fs1>img {
+	width: 2rem;
+	height: 2rem;
+}
+header>.fs2{
+	display: inline-block;
+	width: 5rem;
+	height: 3rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.5rem;
+	font-size: 1rem;
+	line-height: 3rem;
+}
+header>.fs3{
+	display: inline-block;
+	position: absolute;
+	top: 0.5rem;
+	right: 2.5rem;
+}
+header>.fs3>img {
+	width: 2rem;
+	height: 2rem;
+}
+header>.fs4{
+	display: inline-block;
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+}
+header>.fs4>img {
+	width: 2rem;
+	height: 2rem;
+}
+header>.fs-1{
+	width: 100%;
+	height: 2rem;
+	overflow: hidden;
+	background: white;
+	position: absolute;
+	bottom: 0rem;
+}
+header>.fs-1>ul>li{
+	float: left;
+	font-size: 0.5rem;
+	line-height: 2rem;
+}
+header>.fs-1>ul>li:nth-child(n+2){
+	margin-left: 0.5rem;
+}
+section{
+	width: 100%;
+	position: relative;
+	top: 5rem;
+}
+.aui-banner-content {
+	overflow-x: hidden;
+	width: 100%;
+	position: relative;
+}
+
+.aui-banner-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+	position: relative;
+	z-index: 1;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+}
+
+.aui-banner-pagination {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	left: 0;
+	bottom: .5rem;
+	pointer-events: none;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.aui-banner-wrapper-item {
+	width: 100%;
+	height: 100%;
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+
+.slider-pagination-item {
+	margin: 0 .3rem;
+	width: 14px;
+	height: 3px;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.slider-pagination-item.slider-pagination-item-active {
+	background:#eb6106;
+}
+
+.aui-banner-wrapper-item img {
+	width: 100%;
+	background-size: cover;
+}
+
+.aui-header-center-clear {
+	width: 100%;
+	margin-left: 13%;
+}
+section>.fs-2{
+	width: 100%;
+}
+#myCarousel{
+	width: 100%;
+    
+}
+.mobileImg{
+	width: 100%;
+	display: block;
+}
+.mobileImg>img{
+	width: 100%;
+	display: block;
+}
+section>.fs-3{
+	width: 100%;
+	
+}
+section>.fs-3>ul>li{
+	width: 100%;
+	height: 11rem;
+	background: white;
+	margin-top: 0.5rem;
+}
+section>.fs-3>ul>li>.fs-31{
+	width: 100%;
+	height: 3rem;
+	position: relative;
+}
+section>.fs-3>ul>li>.fs-31>img{
+	width: 3rem;
+	height:3rem;
+}
+section>.fs-3>ul>li>.fs-31>.s1{
+	display: inline-block;
+	height: 3rem;
+	position: absolute;
+	
+}
+section>.fs-3>ul>li>.fs-31>.s1>p{
+	font-size: 1rem;
+	margin: 0px;
+}
+section>.fs-3>ul>li>.fs-31>.s1>.pp{
+	font-size: 0.2rem;
+	color: #D0C7CD;
+	
+}
+section>.fs-3>ul>li>.fs-31>.s2{
+	display: inline-block;
+	width: 4rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: red;
+	border: 1px solid red;
+	font-size: 1rem;
+	position: absolute;
+	right: 0rem;
+	
+}
+section>.fs-3>ul>li>.fs-32{
+	width: 100%;
+	height: 6rem;
+	margin-top: 1rem;
+	position: relative;
+}
+section>.fs-3>ul>li>.fs-32>img{
+	width: 6rem;
+	height:6rem;
+}
+section>.fs-3>ul>li>.fs-32>.s1{
+	display: inline-block;
+	height: 6rem;
+	position: absolute;
+	
+}
+section>.fs-3>ul>li>.fs-32>.s1>p{
+	font-size: 1rem;
+	margin: 0px;
+}
+section>.fs-3>ul>li>.fs-32>.s1>.pp{
+	font-size: 0.2rem;
+	color: #D0C7CD;
+	
+}
+section>.fs-3>ul>.lii{
+	width: 100%;
+	height: 18rem;
+	background: white;
+	margin-top: 0.5rem;
+}
+section>.fs-3>ul>.lii>p{
+	font-size: 1rem;
+	margin-top: 0.5rem;
+}
+section>.fs-3>ul>.lii>ul{
+	width: 100%;
+	height: 12rem;
+}
+section>.fs-3>ul>.lii>ul>li{
+	float: left;
+	width: 32%;
+}
+section>.fs-3>ul>.lii>ul>li>img{
+	width: 100%;
+	height: 12rem;
+}
+section>.fs-3>ul>.lii>ul>li:nth-child(n+2){
+	margin-left: 2%;
+}
+section>.fs-4{
+	width: 100%;
+	height: 10rem;
+}
+section>.fs-4>img{
+	width: 100%;
+	height: 10rem;
+}
+section>.fs-5{
+	width: 100%;
+	background: white;
+}
+section>.fs-5>ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+section>.fs-5>ul>li{
+	width: 22%;
+	margin-top: 0.5rem;
+}
+section>.fs-5>ul>li:nth-child(n+2){
+	margin-left: 2%;
+}
+section>.fs-5>ul>li>img{
+	width: 100%;
+	height: 6rem;
+}
+section>.fs-5>ul>li>p{
+	font-size: 0.6rem;
+}
+section>.fs-5>ul>li>p>.s1{
+	color: red;
+	font-size: 1rem;
+}
+section>.fs-6{
+	width: 100%;
+	height: 4rem;
+}
+section>.fs-6>img{
+	width: 100%;
+	height: 4rem;
+}
+footer{
+	width: 100%;
+	background: white;
+	position: relative;
+	top: 5rem;
+}
+footer>ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer>ul>li{
+	width: 50%;
+	/*height: 16rem;*/
+	text-align: center;
+	/*float: left;*/
+	
+	position: relative;
+}
+footer>ul>li>img{
+	width: 85%;
+	height: 14rem;
+	margin-top: 1rem;
+}
+footer>ul>li>.ss1{
+	display: inline-block;
+	width: 90%;
+	height: 1rem;
+	margin-left: -10%;
+}
+footer>ul>li>.ss1>p{
+	font-size: 0.2rem;
+	text-align: left;
+}
+footer>ul>li>.ss1>p>.s1{
+	font-size: 0.8rem;
+	color: red;
+}
+footer>ul>li>.right{
+	font-size: 0.6rem;
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0rem;
+}
+.guding{
+	width: 100%;
+	height: 4.5rem;
+	background: white;
+	position: fixed;
+	bottom: 0rem;
+}
+.guding>ul>li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.guding>ul>li>a>img{
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-top: 0.3rem;
+}
+.guding>ul>li>a>p{
+	font-size: 0.6rem;
+	color: black;
+}

@@ -1,0 +1,39 @@
+header{
+	width: 100%;
+	height: 4.5rem;
+	background: url(../img/wode/bg.png)no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	z-index: 99;
+}
+.header-left{
+	width: 3.5rem;
+	height: 3.5rem;
+	/*left: 0.2rem;*/
+	top: 0.3rem;
+	position: absolute;
+}
+.header-left>a{
+	color: white;
+	font-size: 2rem;
+}
+.header-in{
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	line-height: 4rem;
+}
+.header-right{
+	position: absolute;
+	right: 1rem;
+	top:1.2rem;
+}
+.header-right>a>img{
+	width: 2rem;
+	height: 2rem;
+}
+section{
+	position: absolute;
+	width: 100%;
+	top: 4.5rem;
+}

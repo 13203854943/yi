@@ -1,0 +1,283 @@
+	* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:none;
+    vertical-align:baseline;
+}
+
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+html, body {
+    background: whitesmoke;
+    font-size: 5px;
+}
+header{
+	width: 100%;
+	height: 3rem;
+	background: url(../img/tou.PNG) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	top: 0rem;
+	z-index: 999;
+}
+header>.hs1{
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	left: -1rem;
+	top: 0.5rem;
+	
+}
+header>.hs1>img{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin-left: 2rem;
+	transition: all 1s; 
+}
+header>.hs2{
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	right: 2.3rem;
+	top: 0.5rem;
+}
+header>.hs2>img{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin-left: 2rem;
+}
+section{
+	margin-top: 4rem;
+	width: 100%;
+}
+section>.s-1{
+	width: 90%;
+	height: 6.5rem;
+	background: white;
+	margin-left: 5%;
+	margin-top: 1rem;
+	border-radius: 1rem;
+	position: relative;
+}
+section>.s-1>.sss1{
+	width: 100%;
+	height: 5rem;
+	background: white;
+	position: absolute;
+	z-index: 1;
+	border-radius: 0rem 0rem 0.8rem 0.8rem;
+}
+section>.s-1>.sss1>span{
+	display: inline-block;
+	height: 1.5rem;
+	width: 100%;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+section>.s-1>.sss1>span>img{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	position: absolute;
+	top: -0.6rem;
+	left: 1rem;
+}
+section>.s-1>.sss1>span>span{
+	font-size: 1.1rem;
+	display: inline-block;
+    position: absolute;
+    left: 3rem;
+}
+section>.s-1>.sss1>ul{
+	width: 90%;
+	height: 2.5rem ;
+	/*border: 1px solid red;*/
+	margin-left: 5%;
+}
+section>.s-1>.sss1>ul>li{
+	font-size: 0.7rem;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+section>.s-1>.s-11{
+	width: 100%;
+	height: 2.5rem;
+	background: black;
+	margin-top: 0.5rem;
+	line-height: 2.5;
+	border-radius: 0rem 0rem 1rem 1rem;
+	position: absolute;
+	top: 3.8rem;
+}
+section>.s-1>.s-11>.s1{
+	font-size: 0.6rem;
+	color: white;
+	line-height: 1.8rem;
+	position: absolute;
+	left: 0.5rem;
+	bottom: 0rem;
+}
+section>.s-1>.s-11>.s2{
+	font-size: 0.6rem;
+	color: white;
+	line-height: 1.8rem;
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0rem;
+}
+section>.s-2{
+	width: 100%;
+	height: 6rem;
+	background: white;
+	margin-top:1rem;
+}
+section>.s-2>.s2-1{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid red;*/
+}
+section>.s-2>.s2-1>.s1{
+	font-size: 0.7rem;
+	line-height: 2rem;
+}
+
+section>.s-2>ul{
+	width: 90%;
+	height: 4rem;
+	/*background: red;*/
+	margin-left: 5%;
+}
+section>.s-2>ul>li{
+	width: 20%;
+	height: 4rem;
+	text-align: center;
+	float: left;
+}
+section>.s-2>ul>li>img{
+	width: 2rem;
+	height: 2rem;
+}
+section>.s-2>ul>li>p{
+	font-size: 0.7rem;
+}
+section>.s-3{
+	width: 100%;
+	height: 14rem;
+	background: white;
+	margin-top:1rem;
+}
+section>.s-3>.s3-1{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid red;*/
+}
+section>.s-3>.s3-1>.s1{
+	font-size: 0.7rem;
+	line-height: 2rem;
+}
+section>.s-3>ul{
+	width: 90%;
+	height: 12rem;
+	/*background: red;*/
+	margin-left: 5%;
+}
+section>.s-3>ul>li{
+	width: 20%;
+	height: 6rem;
+	text-align: center;
+	float: left;
+}
+section>.s-3>ul>li>img{
+	width: 3rem;
+	height: 3rem;
+}
+section>.s-3>ul>li>p{
+	font-size: 0.6rem;
+}
+section>.s-4{
+	width: 100%;
+	height: 4rem;
+}
+section>.s-4>img{
+	width: 100%;
+	height: 4rem;
+}
+footer{
+	width: 100%;
+	background: white;
+}
+footer>ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer>ul>li{
+	width: 50%;
+	/*height: 16rem;*/
+	text-align: center;
+	/*float: left;*/
+	
+	position: relative;
+}
+footer>ul>li>img{
+	width: 85%;
+	height: 14rem;
+	margin-top: 1rem;
+}
+footer>ul>li>.ss1{
+	display: inline-block;
+	width: 90%;
+	height: 1rem;
+	margin-left: -10%;
+}
+footer>ul>li>.ss1>p{
+	font-size: 0.2rem;
+	text-align: left;
+}
+footer>ul>li>.ss1>p>.s1{
+	font-size: 0.8rem;
+	color: red;
+}
+footer>ul>li>.right{
+	font-size: 0.6rem;
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0rem;
+}
+
+.guding{
+	width: 100%;
+	height: 3rem;
+	background: white;
+	position: fixed;
+	bottom: 0rem;
+}
+.guding>ul>li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.guding>ul>li>a>img{
+	width: 2rem;
+	height: 1.5rem;
+	margin-top: 0.3rem;
+}
+.guding>ul>li>a>p{
+	font-size: 0.6rem;
+	color: black;
+}
